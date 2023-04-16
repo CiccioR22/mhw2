@@ -1,0 +1,79 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+
+section.question-name{
+    background-image: url("./images/red-movie2.jpg");
+}
+
+.choice-grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.choice-grid div.selezionato{
+    background-color: #cfe3ff;
+}
+
+section.choice-grid div.non-selezionato{
+    opacity: 0.6;
+}
+
+section.choice-grid div{
+    box-sizing: border-box;
+    width: 32.5%;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-choice{
+    width: 100%;
+}
+
+@media (max-width: 700px){
+
+    article{
+        width: 95%;
+    }
+
+    header div span{
+        display: none;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    section.choice-grid div{
+        width: 49%;
+    }
+
+}
+
+#risultato{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#risultato p{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+#risultato div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #cecece;
+}
+
+#risultato div:hover{
+    background-color: #e0e0e0;
+}
+
+.hidden{
+    display: none;
+}
